@@ -10,7 +10,7 @@ MyServer:
   Properties:
     ImageId: ami-05fa00d4c63e32376
     InstanceType: t2.micro
-    KeyName: First_Key # here we enter our pem key. here file is without .pem extension
+    KeyName: PEM FILE # here we enter our pem key. here file is without .pem extension
     LaunchTemplate:
       LaunchTemplateId: "String"
       LaunchTemplateName: "String"
