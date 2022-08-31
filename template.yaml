@@ -11,7 +11,8 @@ MyServer:
     ImageId: ami-05fa00d4c63e32376
     InstanceType: t2.micro
     KeyName: PEM_FILE # here we enter our pem key. here file is without .pem extension
-    SecurityGroupIds: SecurityGroupIds
-    SecurityGroups: SecurityGroups
-
-    Tags: Tags
+    SecurityGroups:
+      - ssh-sec-grp
+    Tags:
+      - Key: Name
+        Value: Fist-Cfn-Instance
