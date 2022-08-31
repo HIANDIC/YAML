@@ -1,3 +1,5 @@
+# here I used cfn keyword to create this template.
+# it gives a full option
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
 
