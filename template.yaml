@@ -3,6 +3,7 @@ Description: |
   This template launches an EC2 with a security group that enables SSH.
 Parameters:
 Resources:
+# we delete unnecessary lines
 MyServer:
   Type: AWS::EC2::Instance
   Properties:
