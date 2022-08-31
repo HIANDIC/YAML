@@ -4,6 +4,7 @@ Description: |
 Parameters:
 Resources:
 # we delete unnecessary lines
+# ec2-instance type and enter
 MyServer:
   Type: AWS::EC2::Instance
   Properties:
