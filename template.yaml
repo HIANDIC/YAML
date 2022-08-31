@@ -13,6 +13,7 @@ Resources:
       KeyName: First_Key # here we enter our pem key. here file is without .pem extension
       SecurityGroups:
         - ssh-sec-grp
+      # this tag will be displayed on the console as a name of EC2
       Tags:
         - Key: Name
           Value: Fist-Cfn-Instance
