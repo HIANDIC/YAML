@@ -1,8 +1,41 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
-  This template launches an EC2 with a security that enables group SSH. Here I use cfn-lite keyword to create a template. Than I go over this template.
+# Here I use cfn-lite keyword to create a template. Than I go over this template.
+  This template launches an EC2 with a security that enables group SSH. 
 
 # here I convert parameters and outputs to comment, because they are not neccessary to fullfill. They are optional. But resources part is mandatory to complete.
 # Parameters:
 Resources:
+  # here I typed ec2-instance. Extension give a details about an EC2 to fullfill. Some parts I will not fullfill and delete them.
+  # For unfullfilled parts defaults value will be used
+  MyServer_new:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-05fa00d4c63e32376
+      InstanceType: t2.micro
+      KeyName: First_Key
+      LaunchTemplate:
+        LaunchTemplateId: "String"
+        LaunchTemplateName: "String"
+        Version: "String"
+      LicenseSpecifications: LicenseSpecifications
+      Monitoring: String
+      NetworkInterfaces: NetworkInterfaces
+      PlacementGroupName: "String"
+      PrivateDnsNameOptions:
+        EnableResourceNameDnsAAAARecord: false
+        EnableResourceNameDnsARecord: false
+        HostnameType: "String"
+      PrivateIpAddress: "false"
+      PropagateTagsToVolumeOnCreation: String
+      RamdiskId: "String"
+      SecurityGroupIds: SecurityGroupIds
+      SecurityGroups: SecurityGroups
+      SourceDestCheck: false
+      SsmAssociations: SsmAssociations
+      SubnetId: "String"
+      Tags: Tags
+      Tenancy: "String"
+      UserData: "String"
+      Volumes: Volumes
 # Outputs:
