@@ -14,7 +14,8 @@ Resources:
       ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: First_Key
-      SecurityGroups: S
+      # here I deleted SecurityGroupID, because we have not a VPC now.
+      SecurityGroups:
         - ssh-sec-grp
       Tags: Tags
       
