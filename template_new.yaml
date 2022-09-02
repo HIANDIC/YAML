@@ -14,22 +14,6 @@ Resources:
       ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: First_Key
-      LaunchTemplate:
-        LaunchTemplateId: "String"
-        LaunchTemplateName: "String"
-        Version: "String"
-      LicenseSpecifications: LicenseSpecifications
-      Monitoring: String
-      NetworkInterfaces: NetworkInterfaces
-      PlacementGroupName: "String"
-      PrivateDnsNameOptions:
-        EnableResourceNameDnsAAAARecord: false
-        EnableResourceNameDnsARecord: false
-        HostnameType: "String"
-      PrivateIpAddress: "false"
-      PropagateTagsToVolumeOnCreation: String
-      RamdiskId: "String"
-      SecurityGroupIds: SecurityGroupIds
       SecurityGroups: SecurityGroups
       SourceDestCheck: false
       SsmAssociations: SsmAssociations
