@@ -14,8 +14,8 @@ Resources:
       ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: First_Key
-      SecurityGroupIds: SecurityGroupIds
-      SecurityGroups: SecurityGroups
+      SecurityGroups: S
+        - ssh-sec-grp
       Tags: Tags
       
 # Outputs:
