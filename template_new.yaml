@@ -14,12 +14,8 @@ Resources:
       ImageId: ami-05fa00d4c63e32376
       InstanceType: t2.micro
       KeyName: First_Key
+      SecurityGroupIds: SecurityGroupIds
       SecurityGroups: SecurityGroups
-      SourceDestCheck: false
-      SsmAssociations: SsmAssociations
-      SubnetId: "String"
       Tags: Tags
-      Tenancy: "String"
-      UserData: "String"
-      Volumes: Volumes
+      
 # Outputs:
