@@ -1,7 +1,8 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: |
   This template launches an EC2 with a security that enables group SSH. Here I use cfn-lite keyword to create a template. Than I go over this template.
-Parameters:
-Resources:
 
-Outputs:
+# here I convert parameters and outputs to comment, because they are not neccessary to fullfill. They are optional. But resources part is mandatory to complete.
+# Parameters:
+Resources:
+# Outputs:
