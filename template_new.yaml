@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: |
+  This template launches an EC2 with a security that enables group SSH. Here I use cfn-lite keyword to create a template. Than I go over this template.
+Parameters:
+Resources:
+
+Outputs:
